@@ -10,7 +10,7 @@ Agenda -
 3. Clone a Jekyll Static site, modify and deploy it to gh-pages.
 4. Make a PR to this repo to list their site in README. 
      
-List of static sites that are update and can be cloned - 
+### List of static sites that are update and can be cloned 
 
 
-Please list the address of your static site here - 
+### Please list the address of your static site below
