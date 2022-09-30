@@ -12,9 +12,9 @@ Todo
 - [ ] What do participating peers open PR to?
 - [ ] git cheatsheet
 - [ ] list of updated jekyll sites of various themes
-          - ex: advertising, business, medical
-          - ex: photography, music,food, travel, culture, places
-          - ex: news, magazine, sports, blog
+- `ex: advertising, business, medical`
+- `photography, music,food, travel, culture, places`
+- `news, magazine, sports, blog`
 - [ ] Hacktoberfest posters, stickers, 
 
 **Agenda** - 
