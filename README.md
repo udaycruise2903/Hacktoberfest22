@@ -1,6 +1,6 @@
 # Hacktoberfest22
 Handson sessions to learn exciting DIY software. Hacktoberfest is a month long celebration of FOSS.
-
+<br><br>
 
 ## Session-1 - *Intro to Git and Github*
 
