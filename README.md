@@ -7,6 +7,9 @@ Handson sessions to learn exciting DIY software. Hacktoberfest is a month long c
 **outcome** - Students would deploy a static site using Github pages.
 
 Todo
+- [ ] Create this event in bvjsci website and add a registration form
+- [ ] submit official event promotion request at their [website](https://airtable.com/shrccaRp0ofMPn8SD)
+- [ ] share special moments on social media using #hacktoberfest or #hacktoberfest2022 and tagging @digitalocean or @hacktoberfest. (remember to ask attendees for permission to use their photos.)
 - [ ] How to open PR section?
 - [ ] How to create and Cite Issues?
 - [ ] What do participating peers open PR to?
@@ -16,6 +19,7 @@ Todo
 - `photography, music,food, travel, culture, places`
 - `news, magazine, sports, blog`
 - [ ] Hacktoberfest posters, stickers, 
+
 
 **Agenda** - 
 1. Students signup for Github
