@@ -1,5 +1,5 @@
 # Hacktoberfest22
-Handson sessions to introduce exciting DIY software tools like Git and Github. Hacktoberfest is a month long celebration of FOSS.
+hands-on sessions to introduce exciting DIY software tools like Git and Github. Hacktoberfest is a month long celebration of Free and open-source software(FOSS).
 <br><br>
 
 ## Session-1 - *Intro to Git and Github*
@@ -37,7 +37,7 @@ Note: you can find more themes from here
 4. [jekyllthemes.io](https://jekyllthemes.io/)
 
 ### Please list the address of your static site below
-ex: [Uday's website](https:://udaycruise2903.github.io)
+ex: [Static Website](https://udaycruise2903.github.io)
 
 
 ### Further opportunities
