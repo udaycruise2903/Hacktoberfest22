@@ -2,6 +2,17 @@
 hands-on sessions to introduce exciting DIY software tools like Git and Github. Hacktoberfest is a month long celebration of Free and open-source software(FOSS).
 <br><br>
 
+#### Pre-requisites
+
+Install
+- [ ] Visual Studio Code
+- [ ] install Git - [link](https://www.atlassian.com/git/tutorials/install-git#windows)
+
+In VSCode Extensions, install
+- [ ] vscode-reveal
+- [ ] git cheatsheet
+- [ ] markdown cheatsheet
+
 ### Session-1 - *Intro to Git and Github*
 ### Session-2 - Gitventures
 ### Session-3 - Hacking time

@@ -18,84 +18,154 @@ title: "Hacktoberfest 2022"
 
 ---
 
-![BVJSC](./images/192x192.svg)
-![Sigma Club](./images/sigma_club.jpg)
-## Hacktoberfest 2022
+## Session 2 - Git-ventures
 
-::: block
-Organised by
-*BV Jagadeesh Science Centre* 
-in association with 
-Dept. of Computer Science, 
-National College Jayanagar
-{style=background:red;width:100px}
-::: 
+--
+
+#### What is Git
+
+Git is a version control software for your local system
+
+--
+
+#### Why do we need git?
+
+- It tracks the history of changes as people and teams collaborate on projects together
+- As developers make changes to the project, any earlier version of the project can be recovered at any time.
+
+--
+
+Developers can review project history to find out:
+
+- Which changes were made?
+- Who made the changes?
+- When were the changes made?
+- Why were changes needed?
+
+--
+
+#### Install Git
+
+Download from - https://gitforwindows.org/
+
+Download **git cheatsheet** in VSCode extensions
+
+--
+
+#### Setup Git in your system
+
+1. to set the username
+
+`git config --global user.name "john144`
+
+2. to set the user email
+
+`git config --global user.email "john144@gmail.com"`
 
 ---
 
-Sigma Club members@workshop
+### Activity 01
+#### contribute to an existing branch on GitHub
 
-   - Charan Yadav
-   - Spoorti K
-   - Bhargav Ram
-   - Uday Kiran N
+--
+
+#### Demonstration -  Clone a repository that you forked recently to local system
+
+--
+
+1. *download a repository on GitHub to our machine*
+2. Replace `owner/repo` with the owner and name of the repository to clone
+git clone https://github.com/owner/repo.git
+
+3. change into the existing branch called `session1-notes`
+ 
+`git checkout session1-notes`
+
+--
+
+4. make changes, for example, edit `notes1.md` and `notes2.md` using the text editor
+
+5. stage the changed files
+
+`git add notes1.md notes2.md`
+
+6. take a snapshot of the staging area, Make a comment on what are the changes related to.(anything that's been added)
+
+`git commit -m "edited notes"`
+
+--
+
+7. push changes to github
+
+`git push --set-upstream origin my-new-branch`
+
+--
+
+#### Exercise-01
+
+- clone your notes repo 
+- checkout to an existing branch (ex: session1-notes)
+- add a file call todo.md. Please list the task that you want to redo.
+- push the changes of branch **session1-notes**
 
 ---
 
-Contributions
+### Activity 02
+#### Contribute to an existing repository
 
-   - Chandan NL
-   - Shashank A
-   - Chandhan SS
+--
+
+#### Demonstration -  Clone a repository that you forked recently to local system
+
+--
+
+1. *download a repository on GitHub to our machine*
+2. Replace `owner/repo` with the owner and name of the repository to clone
+git clone https://github.com/owner/repo.git
+
+3. change into the `repo` directory
+ 
+`cd repo`
+
+4. create a new branch to store any new changes.(Please rename your branch differently)
+
+`git branch my-new-branch`
+
+--
+
+5. switch to that branch (line of development)
+
+`git checkout my-new-branch`
+
+6. make changes, for example, edit `notes1.md` and `notes2.md` using the text editor
+
+7. stage the changed files
+
+`git add notes1.md notes2.md`
+
+--
+
+8. Make a comment on what are the changes related to.(anything that's been added)
+
+`git commit -m "added 2 notes on bikes"`
+
+9. push changes to github
+
+`git push --set-upstream origin my-new-branch`
+
+--
+
+#### Exercise-02
+
+- clone any forked repo(hello-world/any other repo of your friend)
+- create a new branch on local system called **readme-session2**
+- add a file called participating.md
+- push the changes of **branch readme-session2**
 
 ---
 
-## Session 1 - Getting started with Github
-
---
-
-#### What is Github
-
-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
---
-
-#### Are there alternatives to Github?
-
-Yes, Gitlab, Gitea and many more
-
---
-
-#### Signing up for a new GitHub account  
-
---
-
-#### Introduction 
-
-- Home page
-- Explore, trending options
-- Issues
-- Notifications
-- Repository
-- Organisation
-- Stars
-
---
-
-#### Demonstration 
-
-How to search for a project and star it?
-
---
-
-#### Exercise
-
-Search for a project in your subject and star it.(some topics - open source university, awesome)
-
----
-
-#### Activity 01 
-### Creating your first repo and editing it
+#### Activity 02
+### 
 
 --
 
@@ -283,101 +353,6 @@ You can create your custom profile that would be displayed whenever some user vi
 Markdown consists of a set of symbols inserted in a document ending with .md suffix to control its structure, formatting, or the relationship between its parts.
 
 ---
-
-### Activity 03 
-#### Fork Spoon-Knife repository
-
---
-
-#### Why fork a repo?
-
-- Propose changes to someone else's project
-- Use someone else's project as a starting point for your own idea
-
---
-
-#### Am I violating ethics or doing something illegal?
-
-No, Open source software is based on the idea that by sharing code, we can make better, more reliable software.
-
---
-
-#### Who/What determines who can use the code of a project?
-
---
-
-Repo owner can choose various licenses that determine how you want your project to be shared with others. 
-
---
-
-### Activity 03 
-#### 1. Forking a repository
-
---
-
-1. On GitHub.com, navigate to the [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) repository.
-2. In the top-right corner of the page, click Fork.
-
-![fork_button](./images/fork_button.png)
-
---
-
-3. Select an owner for the forked repository.
-
-![fork-choose-owner](./images/fork-choose-owner.png)
-
---
-
-4. By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.
-
-![fork-choose-repo-name](./images/fork-choose-repo-name.png)
-
---
-
-5. Optionally, add a description of your fork.
-
-![fork-description](./images/fork-description.png)
-
---
-
-6. Choose whether to copy only the default branch or all branches to the new fork. For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. By default, only the default branch is copied.
-
-![copy-default-branch-only](./images/copy-default-branch-only.png)
-
---
-
-7. Click Create fork.
-
-![fork-create-button](./images/fork-create-button.png)
-
---
-
-#### Exercise - fork your friend's repo (hello-world / Notes) 
-
-- create a separate branch(ex: update-code) from main branch
-- (**Up for a challenge?**) open a Pull request from it.
-
---
-
-#### How to update your forked repo, if your friend accepts and merges your pull request
-
---
-
-- After your friend merges your pull request, Go to forked repo. 
-- You will find **Sync fork** option
-- click on **update branch**
-
-![sync-fork](./images/sync-fork.png)
-
---
-
-##### complicated right?
-
-Please repeat this exercise a number of times to get an idea of whole process
-
----
-
-
 
 SESSION 1 - Getting Started with Github
 

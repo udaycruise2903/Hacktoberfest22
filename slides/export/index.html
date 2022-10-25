@@ -90,106 +90,47 @@
         
             <section >
                 <h4>What is Git</h4>
-<p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<p>Git is a version control software for your local system</p>
 
             </section>
         
             <section >
-                <h4>Are there alternatives to Github?</h4>
-<p>Yes, Gitlab, Gitea and many more</p>
-
-            </section>
-        
-            <section >
-                <h4>Signing up for a new GitHub account</h4>
-
-            </section>
-        
-            <section >
-                <h4>Introduction</h4>
+                <h4>Why do we need git?</h4>
 <ul>
-<li>Home page</li>
-<li>Explore, trending options</li>
-<li>Issues</li>
-<li>Notifications</li>
-<li>Repository</li>
-<li>Organisation</li>
-<li>Stars</li>
+<li>It tracks the history of changes as people and teams collaborate on projects together</li>
+<li>As developers make changes to the project, any earlier version of the project can be recovered at any time.</li>
 </ul>
 
             </section>
         
             <section >
-                <h4>Demonstration</h4>
-<p>How to search for a project and star it?</p>
+                <p>Developers can review project history to find out:</p>
+<ul>
+<li>Which changes were made?</li>
+<li>Who made the changes?</li>
+<li>When were the changes made?</li>
+<li>Why were changes needed?</li>
+</ul>
 
             </section>
         
             <section >
-                <h4>Exercise</h4>
-<p>Search for a project in your subject and star it.(some topics - open source university, awesome)</p>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h4>Activity 01</h4>
-<h3>Creating your first repo and editing it</h3>
+                <h4>Install Git</h4>
+<p>Download from - <a href="https://gitforwindows.org/">https://gitforwindows.org/</a></p>
+<p>Download <strong>git cheatsheet</strong> in VSCode extensions</p>
 
             </section>
         
             <section >
-                <h4>Demonstration - How to create a repository?</h4>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h4>Activity 01</h4>
-<h3>1. Creating a repository</h3>
+                <h4>Setup Git in your system</h4>
 <ol>
-<li>In the upper-right corner of any page, use the  drop-down menu, and select New repository.</li>
+<li>to set the username</li>
 </ol>
-<p><img src="./images/repo-create.png" alt="create-repo"></p>
-
-            </section>
-        
-            <section >
-                <ol start="2">
-<li>In the Repository name box, enter <strong>Notes</strong> as repo name</li>
-<li>In the Description box, write a short description.(My Notes at Hacktoberfest)</li>
-<li>Select Add a README file.</li>
-<li>Select whether your repository will be Public or Private.</li>
-<li>Select a license - MIT License</li>
+<p><code>git config --global user.name &quot;john144</code></p>
+<ol start="2">
+<li>to set the user email</li>
 </ol>
-
-            </section>
-        
-            <section >
-                <ol start="7">
-<li>Click Create repository.
-<img src="./images/hello-world-repo.png" alt="hello-world"></li>
-</ol>
-
-            </section>
-        
-            <section >
-                <h4>Exercise - Create your first repository</h4>
-<p>Edit the README file with little introduction of file, comment and save changes, refer to markdown cheatsheet</p>
+<p><code>git config --global user.email &quot;john144@gmail.com&quot;</code></p>
 
             </section>
         
@@ -203,205 +144,65 @@
     <section>
         <section >
             <h3>Activity 01</h3>
-<h4>2. Creating a branch</h4>
+<h4>contribute to an existing branch on GitHub</h4>
 
             </section>
         
             <section >
-                <h4>Demonstration -  creating a branch in the first repo.</h4>
-
-            </section>
-        
-            <section >
-                <p>Have you ever saved different versions of a file? Something like:</p>
-<ul>
-<li>design1.html</li>
-<li>design-with-navbar.html</li>
-<li>final-design.html</li>
-</ul>
-
-            </section>
-        
-            <section >
-                <h4>What is a good solution for this?</h4>
-<p><img src="./images/branching.png" alt="hello-world"></p>
+                <h4>Demonstration -  Clone a repository that you forked recently to local system</h4>
 
             </section>
         
             <section >
                 <ol>
-<li>Click the Code tab of your <strong>Notes</strong> repository.</li>
-<li>Click the drop down at the top of the file list that says main.</li>
+<li>
+<p><em>download a repository on GitHub to our machine</em></p>
+</li>
+<li>
+<p>Replace <code>owner/repo</code> with the owner and name of the repository to clone
+git clone <a href="https://github.com/owner/repo.git">https://github.com/owner/repo.git</a></p>
+</li>
+<li>
+<p>change into the existing branch called <code>session1-notes</code></p>
+</li>
 </ol>
-<p><img src="./images/branch-selection-dropdown.png" alt="hello-world"></p>
-
-            </section>
-        
-            <section >
-                <ol start="3">
-<li>Type a branch name - <strong>activity1-notes</strong>, into the text box.</li>
-<li>Click Create branch: activity1-notes from main.
-<img src="./images/new-branch.png" alt="hello-world"></li>
-</ol>
-
-            </section>
-        
-            <section >
-                <p>Now you have two branches, main and activity1-notes. Right now, they look exactly the same. Next you’ll add changes to the new branch.</p>
-
-            </section>
-        
-            <section >
-                <h4>Exercise - create a new hello-world repo and create a new branch called 1-edit-readme</h4>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h4>Activity 01</h4>
-<h3>3. Editing and committing changes</h3>
-
-            </section>
-        
-            <section >
-                <h4>Demonstration - making changes and committing it in the first repo.</h4>
-
-            </section>
-        
-            <section >
-                <ol>
-<li>Under the activity1-notes branch you created, click the <a href="http://README.md">README.md</a> file.</li>
-<li>Click at pencil symbol to edit the file.</li>
-<li>In the editor, write a bit about yourself. Try using different Markdown elements.</li>
-<li>In the Commit changes box, write a commit message that describes your changes.</li>
-</ol>
-
-            </section>
-        
-            <section >
-                <ol start="5">
-<li>Click Commit changes.
-<img src="./images/first-commit.png" alt="hello-world"></li>
-</ol>
-
-            </section>
-        
-            <section >
-                <h4>Exercise - create a branch in your first repo</h4>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h4>Activity 01</h4>
-<h3>4. Opening a pull request</h3>
-
-            </section>
-        
-            <section >
-                <h4>Demonstration - Creating a PR in my repo, and mentioning my friend’s name</h4>
-
-            </section>
-        
-            <section >
-                <ol>
-<li>Click the Pull requests tab of your activity1-notes repository.</li>
-<li>Click New pull request</li>
-<li>In the Example Comparisons box, select the branch you made, activity1-notes, to compare with main (the original).</li>
-</ol>
+<p><code>git checkout session1-notes</code></p>
 
             </section>
         
             <section >
                 <ol start="4">
-<li>Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
-<img src="./images/diffs.png" alt="hello-world"></li>
+<li>
+<p>make changes, for example, edit <code>notes1.md</code> and <code>notes2.md</code> using the text editor</p>
+</li>
+<li>
+<p>stage the changed files</p>
+</li>
 </ol>
+<p><code>git add notes1.md notes2.md</code></p>
+<ol start="6">
+<li>take a snapshot of the staging area, Make a comment on what are the changes related to.(anything that’s been added)</li>
+</ol>
+<p><code>git commit -m &quot;edited notes&quot;</code></p>
 
             </section>
         
             <section >
-                <ul>
-<li>Pull requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.</li>
+                <ol start="7">
+<li>push changes to github</li>
+</ol>
+<p><code>git push --set-upstream origin my-new-branch</code></p>
+
+            </section>
+        
+            <section >
+                <h4>Exercise-01</h4>
+<ul>
+<li>clone your notes repo</li>
+<li>checkout to an existing branch (ex: session1-notes)</li>
+<li>add a file call <a href="http://todo.md">todo.md</a>. Please list the task that you want to redo.</li>
+<li>push the changes of branch <strong>session1-notes</strong></li>
 </ul>
-
-            </section>
-        
-            <section >
-                <ul>
-<li>As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.</li>
-<li>By using GitHub’s @mention feature in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.</li>
-</ul>
-
-            </section>
-        
-            <section >
-                <ul>
-<li>You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub flow before working on larger projects.</li>
-</ul>
-
-            </section>
-        
-            <section >
-                <h4>Exercise - Creating a PR in hello-world from branch(1-edit-readme) and mention your  friend’s name that you have finished doing it</h4>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h4>Activity 01</h4>
-<h3>5. Merging your pull request</h3>
-
-            </section>
-        
-            <section >
-                <h4>Demonstration - merge your activity1-notes branch into the main branch.</h4>
-
-            </section>
-        
-            <section >
-                <ol>
-<li>Click Merge pull request to merge the changes into main.</li>
-</ol>
-<p><img src="./images/pullrequest-mergebutton.png" alt="hello-world"></p>
-<ol start="2">
-<li>Click <strong>Confirm merge</strong>. You will receive a message that the request was successfully merged and the request was closed.</li>
-</ol>
-
-            </section>
-        
-            <section >
-                <ol start="3">
-<li>Click <strong>Delete branch</strong>.</li>
-</ol>
-<p>Now that your pull request is merged and your changes are on main, you can safely delete the 1-edit-readme branch. If you want to make more changes to your project, you can always create a new branch and repeat this process.</p>
-
-            </section>
-        
-            <section >
-                <h4>Exercise - Merge your 1-edit-readme branch into the main branch in hello-world repo.</h4>
-<p>After you merge your pull request, the changes on your 1-edit-readme branch will be incorporated into main.</p>
 
             </section>
         
@@ -415,146 +216,73 @@
     <section>
         <section >
             <h3>Activity 02</h3>
-<h4>Create your profile using README</h4>
-<p>You can create your custom profile that would be displayed whenever some user visits your profile.</p>
+<h4>Contribute to an existing repository</h4>
 
             </section>
         
             <section >
-                <h4>Exercise - Create a repo and name it your username and include a README file while creating the repo.</h4>
-<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4582679"><label class="task-list-item-label" for="task-item-4582679"> Use the markdown cheatsheet</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2694662"><label class="task-list-item-label" for="task-item-2694662"> For comprehensive understanding, refer to this article from Github</label></li>
-</ul>
-
-            </section>
-        
-            <section >
-                <p>Markdown consists of a set of symbols inserted in a document ending with .md suffix to control its structure, formatting, or the relationship between its parts.</p>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3>Activity 03</h3>
-<h4>Fork Spoon-Knife repository</h4>
-
-            </section>
-        
-            <section >
-                <h4>Why fork a repo?</h4>
-<ul>
-<li>Propose changes to someone else’s project</li>
-<li>Use someone else’s project as a starting point for your own idea</li>
-</ul>
-
-            </section>
-        
-            <section >
-                <h4>Am I violating ethics or doing something illegal?</h4>
-<p>No, Open source software is based on the idea that by sharing code, we can make better, more reliable software.</p>
-
-            </section>
-        
-            <section >
-                <h4>Who/What determines who can use the code of a project?</h4>
-
-            </section>
-        
-            <section >
-                <p>Repo owner can choose various licenses that determine how you want your project to be shared with others.</p>
-
-            </section>
-        
-            <section >
-                <h3>Activity 03</h3>
-<h4>1. Forking a repository</h4>
+                <h4>Demonstration -  Clone a repository that you forked recently to local system</h4>
 
             </section>
         
             <section >
                 <ol>
-<li>On <a href="http://GitHub.com">GitHub.com</a>, navigate to the <a href="https://github.com/octocat/Spoon-Knife">octocat/Spoon-Knife</a> repository.</li>
-<li>In the top-right corner of the page, click Fork.</li>
+<li>
+<p><em>download a repository on GitHub to our machine</em></p>
+</li>
+<li>
+<p>Replace <code>owner/repo</code> with the owner and name of the repository to clone
+git clone <a href="https://github.com/owner/repo.git">https://github.com/owner/repo.git</a></p>
+</li>
+<li>
+<p>change into the <code>repo</code> directory</p>
+</li>
 </ol>
-<p><img src="./images/fork_button.png" alt="fork_button"></p>
-
-            </section>
-        
-            <section >
-                <ol start="3">
-<li>Select an owner for the forked repository.</li>
+<p><code>cd repo</code></p>
+<ol start="4">
+<li>create a new branch to store any new changes.(Please rename your branch differently)</li>
 </ol>
-<p><img src="./images/fork-choose-owner.png" alt="fork-choose-owner"></p>
-
-            </section>
-        
-            <section >
-                <ol start="4">
-<li>By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.</li>
-</ol>
-<p><img src="./images/fork-choose-repo-name.png" alt="fork-choose-repo-name"></p>
+<p><code>git branch my-new-branch</code></p>
 
             </section>
         
             <section >
                 <ol start="5">
-<li>Optionally, add a description of your fork.</li>
+<li>switch to that branch (line of development)</li>
 </ol>
-<p><img src="./images/fork-description.png" alt="fork-description"></p>
+<p><code>git checkout my-new-branch</code></p>
+<ol start="6">
+<li>
+<p>make changes, for example, edit <code>notes1.md</code> and <code>notes2.md</code> using the text editor</p>
+</li>
+<li>
+<p>stage the changed files</p>
+</li>
+</ol>
+<p><code>git add notes1.md notes2.md</code></p>
 
             </section>
         
             <section >
-                <ol start="6">
-<li>Choose whether to copy only the default branch or all branches to the new fork. For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. By default, only the default branch is copied.</li>
+                <ol start="8">
+<li>Make a comment on what are the changes related to.(anything that’s been added)</li>
 </ol>
-<p><img src="./images/copy-default-branch-only.png" alt="copy-default-branch-only"></p>
+<p><code>git commit -m &quot;added 2 notes on bikes&quot;</code></p>
+<ol start="9">
+<li>push changes to github</li>
+</ol>
+<p><code>git push --set-upstream origin my-new-branch</code></p>
 
             </section>
         
             <section >
-                <ol start="7">
-<li>Click Create fork.</li>
-</ol>
-<p><img src="./images/fork-create-button.png" alt="fork-create-button"></p>
-
-            </section>
-        
-            <section >
-                <h4>Exercise - fork your friend’s repo (hello-world / Notes)</h4>
+                <h4>Exercise-02</h4>
 <ul>
-<li>create a separate branch(ex: update-code) from main branch</li>
-<li>(<strong>Up for a challenge?</strong>) open a Pull request from it.</li>
+<li>clone any forked repo(hello-world/any other repo of your friend)</li>
+<li>create a new branch on local system called <strong>readme-session2</strong></li>
+<li>add a file called <a href="http://participating.md">participating.md</a></li>
+<li>push the changes of <strong>branch readme-session2</strong></li>
 </ul>
-
-            </section>
-        
-            <section >
-                <h4>How to update your forked repo, if your friend accepts and merges your pull request</h4>
-
-            </section>
-        
-            <section >
-                <ul>
-<li>After your friend merges your pull request, Go to forked repo.</li>
-<li>You will find <strong>Sync fork</strong> option</li>
-<li>click on <strong>update branch</strong></li>
-</ul>
-<p><img src="./images/sync-fork.png" alt="sync-fork"></p>
-
-            </section>
-        
-            <section >
-                <h5>complicated right?</h5>
-<p>Please repeat this exercise a number of times to get an idea of whole process</p>
 
             </section>
         
@@ -567,7 +295,7 @@
     
         <section >
             
-            <p>SESSION 1 - Getting Started with Github</p>
+            <p>SESSION 1 - Git-ventures</p>
 <p>THE END</p>
 
             </section>

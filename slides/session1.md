@@ -129,6 +129,8 @@ Search for a project in your subject and star it.(some topics - open source univ
 
 Edit the README file with little introduction of file, comment and save changes, refer to markdown cheatsheet
 
+Download **Markdown All in one** extension in VSCode
+
 ---
 
 ### Activity 01 
@@ -376,8 +378,6 @@ Repo owner can choose various licenses that determine how you want your project 
 Please repeat this exercise a number of times to get an idea of whole process
 
 ---
-
-
 
 SESSION 1 - Getting Started with Github
 
