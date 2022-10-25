@@ -2,17 +2,16 @@
 hands-on sessions to introduce exciting DIY software tools like Git and Github. Hacktoberfest is a month long celebration of Free and open-source software(FOSS).
 <br><br>
 
-## Session-1 - *Intro to Git and Github*
+### Session-1 - *Intro to Git and Github*
+### Session-2 - Gitventures
+### Session-3 - Hacking time
 
 **outcome** - Students would deploy a static site using Github pages.
 
 Todo
+
 - [ ] Create this event in bvjsci website and add a registration form
-- [ ] submit official event promotion request at their [website](https://airtable.com/shrccaRp0ofMPn8SD)
 - [ ] share special moments on social media using #hacktoberfest or #hacktoberfest2022 and tagging @digitalocean or @hacktoberfest. (remember to ask attendees for permission to use their photos.)
-- [ ] How to open PR section?
-- [ ] How to create and Cite Issues?
-- [ ] What do participating peers open PR to?
 - [ ] git cheatsheet
 - [ ] list of updated jekyll sites of various themes
 - `ex: advertising, business, medical`

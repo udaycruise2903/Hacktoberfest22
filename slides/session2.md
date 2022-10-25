@@ -1,8 +1,8 @@
 ---
-theme : "night"
-transition: "slide"
+theme : "black"
+transition: "convex"
 highlightTheme: "monokai"
-logoImg: "./images/bvjsc-54x54.svg"
+logoImg: "./images/sigma_club.jpg"
 slideNumber: false
 title: "Hacktoberfest 2022"
 ---
@@ -13,10 +13,14 @@ title: "Hacktoberfest 2022"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js">
 
 <!-- .slide: data-background="bvjsc-54*54.png" -->
-![BVJSC](./images/192x192.svg)
-![Hacktoberfest](./images/Hfest-Logo-2-Color-Manga%402x.png)
-## Hacktoberfest 2022
 
+![Hacktoberfest](./images/Hfest-Logo-2-Color-Manga%402x.png)
+
+---
+
+![BVJSC](./images/192x192.svg)
+![Sigma Club](./images/sigma_club.jpg)
+## Hacktoberfest 2022
 
 ::: block
 Organised by
@@ -102,21 +106,21 @@ Search for a project in your subject and star it.(some topics - open source univ
 #### Activity 01 
 ### 1. Creating a repository
 
-- In the upper-right corner of any page, use the  drop-down menu, and select New repository.
+1. In the upper-right corner of any page, use the  drop-down menu, and select New repository.
 
 ![create-repo](./images/repo-create.png)
 
 --
 
-- In the Repository name box, enter **Notes** as repo name
-- In the Description box, write a short description.(My Notes at Hacktoberfest)
-- Select Add a README file.
-- Select whether your repository will be Public or Private.
-- Select a license - MIT License
+2. In the Repository name box, enter **Notes** as repo name
+3. In the Description box, write a short description.(My Notes at Hacktoberfest)
+4. Select Add a README file.
+5. Select whether your repository will be Public or Private.
+6. Select a license - MIT License
 
 --
 
-- Click Create repository.
+7. Click Create repository.
 ![hello-world](./images/hello-world-repo.png)
 
 --
@@ -150,20 +154,20 @@ Have you ever saved different versions of a file? Something like:
 
 --
 
-- Click the Code tab of your **Notes** repository.
-- Click the drop down at the top of the file list that says main.
+1. Click the Code tab of your **Notes** repository.
+2. Click the drop down at the top of the file list that says main.
 
 ![hello-world](./images/branch-selection-dropdown.png)
 
 --
 
-- Type a branch name - **activity1-notes**, into the text box.
-- Click Create branch: activity1-notes from main.
+3. Type a branch name - **activity1-notes**, into the text box.
+4. Click Create branch: activity1-notes from main.
 ![hello-world](./images/new-branch.png)
 
 --
 
-- Now you have two branches, main and activity1-notes. Right now, they look exactly the same. Next you'll add changes to the new branch.
+Now you have two branches, main and activity1-notes. Right now, they look exactly the same. Next you'll add changes to the new branch.
 
 --
 
@@ -180,14 +184,14 @@ Have you ever saved different versions of a file? Something like:
 
 --
 
-- Under the activity1-notes branch you created, click the README.md file.
-- Click at pencil symbol to edit the file.
-- In the editor, write a bit about yourself. Try using different Markdown elements.
-- In the Commit changes box, write a commit message that describes your changes.
+1. Under the activity1-notes branch you created, click the README.md file.
+2. Click at pencil symbol to edit the file.
+3. In the editor, write a bit about yourself. Try using different Markdown elements.
+4. In the Commit changes box, write a commit message that describes your changes.
 
 --
 
-- Click Commit changes.
+5. Click Commit changes.
 ![hello-world](./images/first-commit.png)
 
 --
@@ -205,13 +209,13 @@ Have you ever saved different versions of a file? Something like:
 
 --
 
-- Click the Pull requests tab of your activity1-notes repository.
-- Click New pull request
-- In the Example Comparisons box, select the branch you made, activity1-notes, to compare with main (the original).
+1. Click the Pull requests tab of your activity1-notes repository.
+2. Click New pull request
+3. In the Example Comparisons box, select the branch you made, activity1-notes, to compare with main (the original).
 
 --
 
-- Look over your changes in the diffs on the Compare page, make sure they're what you want to submit.
+4. Look over your changes in the diffs on the Compare page, make sure they're what you want to submit.
 ![hello-world](./images/diffs.png)
 
 --
@@ -242,15 +246,15 @@ Have you ever saved different versions of a file? Something like:
 
 --
 
-- Click Merge pull request to merge the changes into main.
+1. Click Merge pull request to merge the changes into main.
 
 ![hello-world](./images/pullrequest-mergebutton.png)
 
-- Click **Confirm merge**. You will receive a message that the request was successfully merged and the request was closed.
+2. Click **Confirm merge**. You will receive a message that the request was successfully merged and the request was closed.
 
 --
 
-- Click **Delete branch**.
+3. Click **Delete branch**.
 
 Now that your pull request is merged and your changes are on main, you can safely delete the 1-edit-readme branch. If you want to make more changes to your project, you can always create a new branch and repeat this process.
 
@@ -280,5 +284,106 @@ Markdown consists of a set of symbols inserted in a document ending with .md suf
 
 ---
 
+### Activity 03 
+#### Fork Spoon-Knife repository
+
+--
+
+#### Why fork a repo?
+
+- Propose changes to someone else's project
+- Use someone else's project as a starting point for your own idea
+
+--
+
+#### Am I violating ethics or doing something illegal?
+
+No, Open source software is based on the idea that by sharing code, we can make better, more reliable software.
+
+--
+
+#### Who/What determines who can use the code of a project?
+
+--
+
+Repo owner can choose various licenses that determine how you want your project to be shared with others. 
+
+--
+
+### Activity 03 
+#### 1. Forking a repository
+
+--
+
+1. On GitHub.com, navigate to the [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) repository.
+2. In the top-right corner of the page, click Fork.
+
+![fork_button](./images/fork_button.png)
+
+--
+
+3. Select an owner for the forked repository.
+
+![fork-choose-owner](./images/fork-choose-owner.png)
+
+--
+
+4. By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.
+
+![fork-choose-repo-name](./images/fork-choose-repo-name.png)
+
+--
+
+5. Optionally, add a description of your fork.
+
+![fork-description](./images/fork-description.png)
+
+--
+
+6. Choose whether to copy only the default branch or all branches to the new fork. For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. By default, only the default branch is copied.
+
+![copy-default-branch-only](./images/copy-default-branch-only.png)
+
+--
+
+7. Click Create fork.
+
+![fork-create-button](./images/fork-create-button.png)
+
+--
+
+#### Exercise - fork your friend's repo (hello-world / Notes) 
+
+- create a separate branch(ex: update-code) from main branch
+- (**Up for a challenge?**) open a Pull request from it.
+
+--
+
+#### How to update your forked repo, if your friend accepts and merges your pull request
+
+--
+
+- After your friend merges your pull request, Go to forked repo. 
+- You will find **Sync fork** option
+- click on **update branch**
+
+![sync-fork](./images/sync-fork.png)
+
+--
+
+##### complicated right?
+
+Please repeat this exercise a number of times to get an idea of whole process
+
+---
 
 
+
+SESSION 1 - Getting Started with Github
+
+THE END
+
+---
+
+
+---
