@@ -6,6 +6,7 @@ logoImg: "./images/bvjsc-54x54.svg"
 slideNumber: false
 title: "Hacktoberfest 2022"
 ---
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.js">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/theme/black.min.css">
