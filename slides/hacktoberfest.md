@@ -2,18 +2,18 @@
 theme : "night"
 transition: "slide"
 highlightTheme: "monokai"
-logoImg: "https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides_images/bvjsc-54x54.svg"
+logoImg: "./images/bvjsc-54x54.svg"
 slideNumber: false
 title: "Hacktoberfest 2022"
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.js">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/theme/black.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js" integrity="sha512-PrMZUaiqYqRQyi4D71cIxqg/nyiclXEBLlR6A76tQP81iq6vrz9DBa+vLkn2efw3ECfYbKH1G+uLLpq6ZZ4dLA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js">
 
 <!-- .slide: data-background="bvjsc-54*54.png" -->
-![BVJSC](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides_images/192x192.svg)
-![Hacktoberfest](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides_images/Hfest-Logo-2-Color-Manga%402x.png)
+![BVJSC](./images/192x192.svg)
+![Hacktoberfest](./images/Hfest-Logo-2-Color-Manga%402x.png)
 ## Hacktoberfest 2022
 
 
