@@ -1,5 +1,5 @@
 # Hacktoberfest22
-hands-on sessions to introduce exciting DIY software tools like Git and Github. Hacktoberfest is a month long celebration of Free and open-source software(FOSS).
+hands-on sessions to introduce exciting open-source DIY software and tools like Git and Github needed to contribute to them. Hacktoberfest is a month long celebration of Free and open-source software(FOSS) and their contributors.
 <br><br>
 
 #### Pre-requisites

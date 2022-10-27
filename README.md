@@ -1,6 +1,6 @@
 # Hacktoberfest22: Hands-on workshop on Git and Github
-### 
-hands-on sessions to introduce tools like git and github to equip students for independent software development. 
+
+*DIY sessions to introduce Git and Github necessary for independent software development and contributing to the existing open source software(OSS) projects. In this context, Hacktoberfest is a month long celebration of Free and open-source software(FOSS), their contributors and open-source culture.*
 <br><br>
 
 <pre>
@@ -44,19 +44,20 @@ In VSCode Extensions, install
 
 ----
 
-**outcome** -
+#### **outcome** -
 
 Students are 
   1. introduced to open source software(OSS).
   2. are equipped to contribute to OSS.
-  3. to use git and github for their future software projects. 
-  4. to host and deploy static site.
+  3. are equipped for independent software development.
+  4. to use git and github for their future software projects. 
+  5. to host and deploy static site.
 
 ##### Todo
 
 - [ ] Create this event in bvjsci website and add a registration form
 - [ ] share special moments on social media using #hacktoberfest2022 and tagging @bvjsci (remember to ask attendees for permission to use their photos.)
-- [ ] Hacktoberfest posters, stickers, 
+- [ ] posters
 
 
 **Agenda** - 
