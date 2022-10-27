@@ -3,6 +3,16 @@
 hands-on sessions to introduce tools like git and github to equip students for independent software development. 
 <br><br>
 
+<pre>
+Date: 31-Oct-2022
+Place: BV Jagadeesh Science Centre Multimedia Hall,
+       National College Jayanagar Campus,
+       Jayanagar 7th Block,
+       Bengaluru
+No. of Students: 30
+</pre>
+
+
 #### Pre-requisites
 
 Install
@@ -15,14 +25,19 @@ In VSCode Extensions, install
 - [ ] git cheatsheet
 - [ ] markdown all in one
 
-Learn how to deploy Hugo site in Github
-- [Hosting and deployment on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+  Learn how to deploy Hugo site in Github
+  - [Hosting and deployment on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 ### Session-1 - *Intro to Git and Github*
 ### Session-2 - Gitventures
 ### Session-3 - Hacking time
 
-**outcome** - Students learn to use git and github to host and deploy static site.
+**outcome** -
+Students are 
+  1. introduced to open source software(OSS).
+  2. are equipped to contribute to OSS.
+  3. to use git and github for their future software projects. 
+  4. to host and deploy static site.
 
 ##### Todo
 
