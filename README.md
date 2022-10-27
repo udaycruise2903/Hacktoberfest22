@@ -32,9 +32,9 @@ Learn how to deploy Hugo site in Github
 
 
 **Agenda** - 
-1. Students signup for Github
-2. We introduce Markdown and help them in creating their Profile using .md file.
-3. Clone a Hugo Static site, modify and deploy it to gh-pages.
+1. Students are provided the knowledge of open source software, licenses
+2. We introduce them to Github Markdown and help them in creating their Profile using .md file.
+3. Clone a Hugo Static site, modify and deploy it to gh-pages.(A open source software helps in getting started for creating conference websites.)
 4. Make a PR to this repo to list their site in README. 
 
 
