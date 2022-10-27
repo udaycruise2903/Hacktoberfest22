@@ -74,6 +74,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/theme/black.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js">
 <!-- .slide: data-background="bvjsc-54*54.png" -->
+<h2>Session 3 - Hacking time</h2>
 <p><img src="./images/Hfest-Logo-2-Color-Manga%402x.png" alt="Hacktoberfest"></p>
 
             </section>
@@ -84,205 +85,126 @@
     
     <section>
         <section >
-            <h2>Session 2 - Git-ventures</h2>
-
-            </section>
-        
-            <section >
-                <h4>What is Git</h4>
-<p>Git is a version control software for your local system</p>
-
-            </section>
-        
-            <section >
-                <h4>Why do we need git?</h4>
-<ul>
-<li>It tracks the history of changes as people and teams collaborate on projects together</li>
-<li>As developers make changes to the project, any earlier version of the project can be recovered at any time.</li>
+            <h4>fun projects to accomplish (static site)</h4>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5373236"><label class="task-list-item-label" for="task-item-5373236"> personal website</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2759540"><label class="task-list-item-label" for="task-item-2759540"> Sigma Club website</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8952408"><label class="task-list-item-label" for="task-item-8952408"> Digital Museum Gallery</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3080187"><label class="task-list-item-label" for="task-item-3080187"> Event website</label></li>
 </ul>
 
             </section>
         
             <section >
-                <p>Developers can review project history to find out:</p>
-<ul>
-<li>Which changes were made?</li>
-<li>Who made the changes?</li>
-<li>When were the changes made?</li>
-<li>Why were changes needed?</li>
-</ul>
+                <h4>We will be working on building your personal website now</h4>
 
             </section>
         
             <section >
-                <h4>Install Git</h4>
-<p>Download from - <a href="https://gitforwindows.org/">https://gitforwindows.org/</a></p>
-<p>Download <strong>git cheatsheet</strong> in VSCode extensions</p>
-
-            </section>
-        
-            <section >
-                <h4>Setup Git in your system</h4>
+                <h4>pre-requisites</h4>
 <ol>
-<li>to set the username</li>
+<li>Download and setup Hugo for <a href="https://gohugo.io/getting-started/installing/#windows">windows</a></li>
 </ol>
-<p><code>git config --global user.name &quot;john144</code></p>
-<ol start="2">
-<li>to set the user email</li>
-</ol>
-<p><code>git config --global user.email &quot;john144@gmail.com&quot;</code></p>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3>Activity 01</h3>
-<h4>contribute to an existing branch on GitHub</h4>
 
             </section>
         
             <section >
-                <h4>Demonstration -  Clone a repository that you forked recently to local system</h4>
-
-            </section>
-        
-            <section >
-                <ol>
-<li>
-<p><em>download a repository on GitHub to our machine</em></p>
+                <h4>Overview of tasks</h4>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8066347"><label class="task-list-item-label" for="task-item-8066347"> (for advanced contributions) Download Go -https://go.dev/dl/</label></p>
 </li>
-<li>
-<p>Replace <code>owner/repo</code> with the owner and name of the repository to clone
-git clone <a href="https://github.com/owner/repo.git">https://github.com/owner/repo.git</a></p>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5467045"><label class="task-list-item-label" for="task-item-5467045"> setup Hugo</label></p>
 </li>
-<li>
-<p>change into the existing branch called <code>session1-notes</code></p>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2916394"><label class="task-list-item-label" for="task-item-2916394"> create a personal website</label></p>
 </li>
-</ol>
-<p><code>git checkout session1-notes</code></p>
-
-            </section>
-        
-            <section >
-                <ol start="4">
-<li>
-<p>make changes, for example, edit <code>notes1.md</code> and <code>notes2.md</code> using the text editor</p>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8289901"><label class="task-list-item-label" for="task-item-8289901"> clone a hugo theme</label></p>
 </li>
-<li>
-<p>stage the changed files</p>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7032576"><label class="task-list-item-label" for="task-item-7032576"> deploy to Github -https://gohugo.io/hosting-and-deployment/hosting-on-github/</label></p>
 </li>
-</ol>
-<p><code>git add notes1.md notes2.md</code></p>
-<ol start="6">
-<li>take a snapshot of the staging area, Make a comment on what are the changes related to.(anything that’s been added)</li>
-</ol>
-<p><code>git commit -m &quot;edited notes&quot;</code></p>
-
-            </section>
-        
-            <section >
-                <ol start="7">
-<li>push changes to github</li>
-</ol>
-<p><code>git push --set-upstream origin my-new-branch</code></p>
-
-            </section>
-        
-            <section >
-                <h4>Exercise-01</h4>
-<ul>
-<li>clone your notes repo</li>
-<li>checkout to an existing branch (ex: session1-notes)</li>
-<li>add a file call <a href="http://todo.md">todo.md</a>. Please list the task that you want to redo.</li>
-<li>push the changes of branch <strong>session1-notes</strong></li>
 </ul>
 
             </section>
         
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3>Activity 02</h3>
-<h4>Contribute to an existing repository</h4>
-
-            </section>
-        
             <section >
-                <h4>Demonstration -  Clone a repository that you forked recently to local system</h4>
-
-            </section>
-        
-            <section >
-                <ol>
+                <h4>Steps</h4>
+<ol>
 <li>
-<p><em>download a repository on GitHub to our machine</em></p>
+<blockquote>
+<p>hugo new site &lt;your website’s name&gt;</p>
+</blockquote>
 </li>
 <li>
-<p>Replace <code>owner/repo</code> with the owner and name of the repository to clone
-git clone <a href="https://github.com/owner/repo.git">https://github.com/owner/repo.git</a></p>
+<blockquote>
+<p>cd &lt;your website’s name&gt;/themes/</p>
+</blockquote>
 </li>
-<li>
-<p>change into the <code>repo</code> directory</p>
-</li>
+<li>Clone the raditian-free-hugo-theme</li>
 </ol>
-<p><code>cd repo</code></p>
+<blockquote>
+<p>git clone <a href="https://github.com/radity/raditian-free-hugo-theme.git">https://github.com/radity/raditian-free-hugo-theme.git</a>)</p>
+</blockquote>
+
+            </section>
+        
+            <section >
+                <h4>steps</h4>
 <ol start="4">
-<li>create a new branch to store any new changes.(Please rename your branch differently)</li>
-</ol>
-<p><code>git branch my-new-branch</code></p>
-
-            </section>
-        
-            <section >
-                <ol start="5">
-<li>switch to that branch (line of development)</li>
-</ol>
-<p><code>git checkout my-new-branch</code></p>
-<ol start="6">
 <li>
-<p>make changes, for example, edit <code>notes1.md</code> and <code>notes2.md</code> using the text editor</p>
+<p>Replace the “config.toml” file in your project’s root directory with /themes/raditian-free-hugo-theme/exampleSite/config.toml</p>
 </li>
 <li>
-<p>stage the changed files</p>
+<p>delete .git folder in<br>
+/themes/raditian-free-hugo-theme/</p>
+</li>
+<li>
+<p>change baseURL in me/config.toml<br>
+baseURL = “<a href="https://bvjsciencecentre.github.io/me/">https://bvjsciencecentre.github.io/me/</a>”`</p>
+</li>
+<li>
+<p>To start the server</p>
 </li>
 </ol>
-<p><code>git add notes1.md notes2.md</code></p>
+<p><code>hugo server -D</code></p>
 
             </section>
         
             <section >
-                <ol start="8">
-<li>Make a comment on what are the changes related to.(anything that’s been added)</li>
+                <h4>steps - Deployment</h4>
+<p>Refer this site- <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
+<ol start="8">
+<li>Create a file in<br>
+me/.github/workflows/gh-pages.yml</li>
+<li>copy the gh-pages.yml snippet.</li>
+<li>cd me/<br>
+git init</li>
+<li>add the branch<br>
+git branch -M main</li>
 </ol>
-<p><code>git commit -m &quot;added 2 notes on bikes&quot;</code></p>
-<ol start="9">
-<li>push changes to github</li>
-</ol>
-<p><code>git push --set-upstream origin my-new-branch</code></p>
 
             </section>
         
             <section >
-                <h4>Exercise-02</h4>
-<ul>
-<li>clone any forked repo(hello-world/any other repo of your friend)</li>
-<li>create a new branch on local system called <strong>readme-session2</strong></li>
-<li>add a file called <a href="http://participating.md">participating.md</a></li>
-<li>push the changes of <strong>branch readme-session2</strong></li>
-</ul>
+                <ol start="12">
+<li>
+<p>commit all the changes<br>
+git commit -m “first commit”</p>
+</li>
+<li>
+<p>add the link of github repo to local repo<br>
+<code>git remote add origin https://github.com/bvjsciencecentre/me.git</code></p>
+</li>
+<li>
+<p>push all the changes to github    git push -u origin main</p>
+</li>
+<li>
+<p>Go to Settings &gt; GitHub Pages, and change the <strong>source</strong> branch to <strong>gh-pages</strong></p>
+</li>
+</ol>
 
             </section>
         
@@ -295,8 +217,8 @@ git clone <a href="https://github.com/owner/repo.git">https://github.com/owner/r
     
         <section >
             
-            <p>SESSION 1 - Git-ventures</p>
-<p>THE END</p>
+            <p>SESSION 3 - Hacking time ends</p>
+<p>HACKATHON BEGINS</p>
 
             </section>
     
