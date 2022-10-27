@@ -68,7 +68,7 @@ Students are
 
 ### Further opportunities
 
-1. Be a **Developer advocate** in Sigma Club
+1. Be a **Developer advocate** in Sigma Club, can you work on these [ideas](https://github.com/bvjsciencecentre/ideas/issues)
 2. Create a blog page on BVJ Science Centre website.
 3. Design/Setup HTML template for our Newsletter.
 4. contribute to UI design of BVJ Science Centre Website.
