@@ -1,5 +1,6 @@
-# Hacktoberfest22
-hands-on sessions to introduce exciting DIY software tools like Git and Github. Hacktoberfest is a month long celebration of Free and open-source software(FOSS).
+# Hacktoberfest22: Hands-on workshop on Git and Github
+### 
+hands-on sessions to introduce tools like git and github to equip students for independent software development. 
 <br><br>
 
 #### Pre-requisites
@@ -35,18 +36,6 @@ Learn how to deploy Hugo site in Github
 2. We introduce Markdown and help them in creating their Profile using .md file.
 3. Clone a Hugo Static site, modify and deploy it to gh-pages.
 4. Make a PR to this repo to list their site in README. 
-     
-     
-### List of static sites that are update and can be cloned 
-
-Note: you can find more themes from here
-1. [Find jekyll themes on github](https://github.com/topics/jekyll-theme)
-2. [Jamstackthemes](https://jamstackthemes.dev/ssg/jekyll/)
-3. [jekyllthemes.org](http://jekyllthemes.org/)
-4. [jekyllthemes.io](https://jekyllthemes.io/)
-
-### Please list the address of your static site below
-ex: [Static Website](https://udaycruise2903.github.io)
 
 
 ### Further opportunities
