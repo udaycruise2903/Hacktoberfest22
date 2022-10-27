@@ -51,7 +51,7 @@ Students are
 ##### Todo
 
 - [ ] Create this event in bvjsci website and add a registration form
-- [ ] share special moments on social media using #hacktoberfest or #hacktoberfest2022 and tagging @digitalocean or @hacktoberfest. (remember to ask attendees for permission to use their photos.)
+- [ ] share special moments on social media using #hacktoberfest2022 and tagging @bvjsci (remember to ask attendees for permission to use their photos.)
 - [ ] Hacktoberfest posters, stickers, 
 
 
