@@ -27,12 +27,21 @@ In VSCode Extensions, install
 
   Learn how to deploy Hugo site in Github
   - [Hosting and deployment on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+  
+----
 
-### Session-1 - *Intro to Git and Github*
-### Session-2 - Gitventures
-### Session-3 - Hacking time
+### Schedule(Timings would be update)
+
+#### Talk - *Introduction to OSS/FOSS*
+#### Session 2 - *[Getting started with Github](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)*
+#### Session-3 - *[Gitventures](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)*
+#### Session-4 - *[Hacking time](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)*
+#### Networking + Discussions
+
+----
 
 **outcome** -
+
 Students are 
   1. introduced to open source software(OSS).
   2. are equipped to contribute to OSS.
