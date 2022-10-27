@@ -1,6 +1,8 @@
 # Hacktoberfest22: Hands-on workshop on Git and Github
 
-*DIY sessions to introduce Git and Github necessary for independent software development and contributing to the existing open source software(OSS) projects. In this context, Hacktoberfest is a month long celebration of Free and open-source software(FOSS), their contributors and open-source culture.*
+*DIY sessions to introduce Git and Github necessary for independent software development and contributing to the existing open source software(OSS) projects.*
+
+*Hacktoberfest is a month long celebration of Free and open-source software(FOSS), their contributors and open-source culture.*
 <br><br>
 
 <pre>
