@@ -30,13 +30,17 @@ In VSCode Extensions, install
   
 ----
 
-### Schedule(Timings would be update)
-
-#### Talk - *Introduction to OSS/FOSS*
-#### Session 2 - *Getting started with Github - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)*
-#### Session-3 - *Gitventures - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)*
-#### Session-4 - *Hacking time - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)*
-#### Networking + Discussions
+### Schedule(Timings would be updated)
+| Sessions     |     Timings      |
+| ------------ | ---------------- |
+| Inauguration | 10:30 AM - 11:30 AM   |
+|Talk - *Introduction to OSS/FOSS* | 11:30 AM - 12:15 AM    |
+|Session 2 - *Getting started with Github(Part 1) - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)* | 12:30 AM - 01:15 PM |
+|Lunch | 01:15 PM - 01:45 PM |
+|Session 2 - *Getting started with Github(Part 2)* | 01:45 PM - 02:30 PM |
+|Session-3 - *Gitventures - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)* | 2:40 PM - 03:20 PM |
+|Session-4 - *Hacking time - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)* | 03:30 PM - 04:10 PM |
+|Networking + Discussions | 04:20 PM - 04:45 PM |
 
 ----
 
