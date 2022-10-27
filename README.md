@@ -31,20 +31,20 @@ In VSCode Extensions, install
 ----
 
 ### Schedule(Timings would be updated)
-| Sessions     |     Timings      |
-| ------------ | ---------------- |
-| Inauguration | 10:30 AM - 11:30 AM   |
-|Talk - *Introduction to OSS/FOSS* | 11:30 AM - 12:15 AM    |
-|Session 2 - *Getting started with Github(Part 1) - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)* | 12:30 AM - 01:15 PM |
+| Sessions     |     Timings      | Resource person   |
+| ------------ | ---------------- | --------- |
+| Inauguration | 10:30 AM - 11:30 AM   | - |
+|Talk - *Introduction to OSS/FOSS* | 11:30 AM - 12:15 AM    |   TBD    |
+|Session 1 - *Getting started with Github(Part 1) - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)* | 12:30 AM - 01:15 PM | Uday Kiran |
 |Lunch | 01:15 PM - 01:45 PM |
-|Session 2 - *Getting started with Github(Part 2)* | 01:45 PM - 02:30 PM |
-|Session-3 - *Gitventures - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)* | 2:40 PM - 03:20 PM |
-|Session-4 - *Hacking time - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)* | 03:30 PM - 04:10 PM |
+|Session 1 - *Getting started with Github(Part 2)* | 01:45 PM - 02:30 PM | Uday Kiran  |
+|Session-2 - *Gitventures - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)* | 2:40 PM - 03:20 PM | Charan Yadav |
+|Session-3 - *Hacking time - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)* | 03:30 PM - 04:10 PM | Uday Kiran |
 |Networking + Discussions | 04:20 PM - 04:45 PM |
 
 ----
 
-#### **outcome** -
+### **outcome** -
 
 Students are 
   1. introduced to open source software(OSS).
@@ -60,10 +60,10 @@ Students are
 - [ ] posters
 
 
-**Agenda** - 
-1. Students are provided the knowledge of open source software, licenses
+**Agenda (Refer slides for a brief overview)** - 
+1. Students are provided the knowledge of open source software and licenses
 2. We introduce them to Github Markdown and help them in creating their Profile using .md file.
-3. Clone a Hugo Static site, modify and deploy it to gh-pages.(A open source software helps in getting started for creating conference websites.)
+3. Clone a Hugo Static site, modify and deploy it to gh-pages.(A open source static site generator helps in getting started for creating conference websites.)
 4. Make a PR to this repo to list their site in README. 
 
 
