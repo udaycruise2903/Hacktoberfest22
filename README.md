@@ -33,9 +33,9 @@ In VSCode Extensions, install
 ### Schedule(Timings would be update)
 
 #### Talk - *Introduction to OSS/FOSS*
-#### Session 2 - *[Getting started with Github](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)*
-#### Session-3 - *[Gitventures](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)*
-#### Session-4 - *[Hacking time](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)*
+#### Session 2 - *Getting started with Github - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session1.pdf)*
+#### Session-3 - *Gitventures - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session2.pdf)*
+#### Session-4 - *Hacking time - [slides](https://github.com/bvjsciencecentre/Hacktoberfest22/blob/main/slides/session3.md)*
 #### Networking + Discussions
 
 ----
