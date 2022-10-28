@@ -14,22 +14,6 @@ Place: BV Jagadeesh Science Centre Multimedia Hall,
 No. of Students: 30
 </pre>
 
-
-#### Pre-requisites
-
-Install
-- [ ] Visual Studio Code
-- [ ] Git - [link](https://www.atlassian.com/git/tutorials/install-git#windows)
-- [ ] Hugo for [windows](https://gohugo.io/getting-started/installing/#windows)
-
-In VSCode Extensions, install
-- [ ] vscode-reveal
-- [ ] git cheatsheet
-- [ ] markdown all in one
-
-  Learn how to deploy Hugo site in Github
-  - [Hosting and deployment on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
-  
 ----
 
 ### Schedule(Timings would be updated)
@@ -46,6 +30,22 @@ In VSCode Extensions, install
 
 ----
 
+#### Pre-requisites
+
+Install
+- [ ] Visual Studio Code
+- [ ] Git - [link](https://www.atlassian.com/git/tutorials/install-git#windows)
+- [ ] Hugo for [windows](https://gohugo.io/getting-started/installing/#windows)
+
+In VSCode Extensions, install
+- [ ] vscode-reveal
+- [ ] git cheatsheet
+- [ ] markdown all in one
+
+  Learn how to deploy Hugo site in Github
+  - [Hosting and deployment on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+  
+
 ### **outcome** -
 
 Students are 
@@ -55,14 +55,7 @@ Students are
   4. to use git and github for their future software projects. 
   5. to host and deploy static site.
 
-##### Todo
-
-- [ ] Create this event in bvjsci website and add a registration form
-- [ ] share special moments on social media using #hacktoberfest2022 and tagging @bvjsci (remember to ask attendees for permission to use their photos.)
-- [ ] posters
-
-
-**Agenda (Refer slides for a brief overview)** - 
+### **Agenda (Refer slides for a brief overview)** - 
 1. Students are provided the knowledge of open source software and licenses
 2. We introduce them to Github Markdown and help them in creating their Profile using .md file.
 3. Clone a Hugo Static site, modify and deploy it to gh-pages.(A open source static site generator helps in getting started for creating conference websites.)
@@ -78,3 +71,9 @@ Students are
 5. Design/Setup HTML template for our Newsletter.
 6. contribute to UI design of BVJ Science Centre Website.
 7. **If you have any ideas, please feel free to approach us.**
+
+##### Todo
+
+- [ ] Create this event in bvjsci website and add a registration form
+- [ ] share special moments on social media using #hacktoberfest2022 and tagging @bvjsci (remember to ask attendees for permission to use their photos.)
+- [ ] posters
