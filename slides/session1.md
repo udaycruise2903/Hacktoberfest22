@@ -35,10 +35,16 @@ National College Jayanagar
 
 Sigma Club members@workshop
 
-   - Charan Yadav
-   - Spoorti K
-   - Bhargav Ram
-   - Uday Kiran N
+<br><br>
+|           |         |
+| --------- | ------- |
+|Charan Yadav|Bhargav Ram|
+| Shraddha |Spoorti K|
+| Sindhuja | Vaishnavi |
+| Abhishek YS | Sagar |
+| Uday Kiran N | Rakshitha |
+| Preetham | Venkatesh |
+|Charan Kumar R |
 
 ---
 
@@ -47,10 +53,22 @@ Contributions
    - Chandan NL
    - Shashank A
    - Chandhan SS
+   - Navyashree
 
 ---
 
 ## Session 1 - Getting started with Github
+
+--
+
+#### few things to say
+
+
+By the end of the workshop, 
+1. you would be colloborating with your friend on a project
+2. workshop equips you to build and deploy 
+3. Learn how to build and deploy static site like *bvjsciencecentre.github.io*
+
 
 --
 
