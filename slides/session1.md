@@ -35,7 +35,6 @@ National College Jayanagar
 
 Sigma Club members@workshop
 
-<br><br>
 |           |         |
 | --------- | ------- |
 |Charan Yadav|Bhargav Ram|

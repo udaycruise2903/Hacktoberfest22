@@ -102,6 +102,8 @@ SESSION 3 - Hacking time ends
 
 HACKATHON BEGINS
 
+Please lookup the **hackathon_task.md file**
+
 ---
 
 
